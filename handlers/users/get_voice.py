@@ -11,7 +11,8 @@ async def get_voice(msg: types.Message):
         await msg.voice.download(f)
 
     pipe = pipeline("automatic-speech-recognition", "lucio/xls-r-uzbek-cv8")
-    pipe("sample.flac")
+    data = pipe("sample.flac")
 
     await msg.reply('Voice saved')
     await msg.answer(f"Voice: {msg.voice.file_id}")
+    await msg.answer(f"Text: {data['text']}")
