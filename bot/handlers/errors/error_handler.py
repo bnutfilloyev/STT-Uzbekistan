@@ -4,7 +4,7 @@ from aiogram.utils.exceptions import (TelegramAPIError,
                                       CantParseEntities)
 
 
-from loader import dp
+from bot.loader import dp
 
 
 @dp.errors_handler()

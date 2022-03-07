@@ -1,6 +1,6 @@
 from aiogram import Dispatcher
 
-from loader import dp
+from bot.loader import dp
 from .throttling import ThrottlingMiddleware
 
 
