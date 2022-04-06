@@ -6,7 +6,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN cd Training
+RUN pip install -r requirements.txt
 
-CMD ["/usr/bin/bash", "run.sh"]
+RUN cd bot
 
+CMD ["python", "app.py"]

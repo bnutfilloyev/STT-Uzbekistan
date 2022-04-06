@@ -1,7 +1,7 @@
 from aiogram import types
 from transformers import pipeline
 
-from bot.loader import dp
+from loader import dp
 
 
 @dp.message_handler(content_types=types.ContentType.VOICE)
