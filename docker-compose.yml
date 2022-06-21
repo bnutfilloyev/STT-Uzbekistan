@@ -1,10 +1,10 @@
 version: '3.8'
 
 services:
-	app:
-		build:
-		    context: .
-		env_file:
-		    -   .env
-		command:
-		    -   python app.py
+    app:
+        build:
+            context: .
+        env_file:
+            - .env
+        command:
+            - python app.py
