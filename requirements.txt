@@ -1,4 +1,3 @@
 aiogram<3.0
 environs~=8.0.0
-transformers
 pyctcdecod
