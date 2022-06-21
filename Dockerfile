@@ -1,4 +1,4 @@
-FROM huggingface/transformers-pytorch-gpu:latest
+FROM pytorch/pytorch:latest
 
 RUN apt update
 

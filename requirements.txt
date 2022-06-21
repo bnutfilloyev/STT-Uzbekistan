@@ -1,2 +1,7 @@
 aiogram<3.0
 environs~=8.0.0
+transformers
+torch
+torchvision
+pyctcdecod
+https://github.com/kpu/kenlm/archive/master.zip
