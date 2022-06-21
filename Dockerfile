@@ -1,8 +1,9 @@
 FROM pytorch/pytorch:latest
 
-RUN apt update
 
 WORKDIR /app
+
+RUN apt update
 
 COPY . .
 
