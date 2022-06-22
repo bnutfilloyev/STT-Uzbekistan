@@ -8,3 +8,4 @@ services:
             - .env
 #        command:
 #            - python app.py
+        restart: always
