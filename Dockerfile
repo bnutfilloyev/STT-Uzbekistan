@@ -19,3 +19,5 @@ RUN pip install -r requirements.txt && \
     pip install transformers
     # pip install pyctcdecod
 
+
+CMD ["python", "app.py"]

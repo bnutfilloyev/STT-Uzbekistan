@@ -6,5 +6,5 @@ services:
             context: .
         env_file:
             - .env
-        command:
-            - python app.py
+#        command:
+#            - python app.py
